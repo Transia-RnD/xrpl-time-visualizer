@@ -1,37 +1,22 @@
-# Xrpl Hex Visualizer
+# Xrpl To,e Visualizer
 
-This is a simple web-based tool that allows users to convert hexadecimal strings into various data types. The tool is designed to handle specific formats such as XFL (eXtended Financial Ledger) and other common data types like unsigned integers and strings.
+This is a simple web-based tool that allows users to convert datetime strings and timestamps into ripple time and vice versa.
 
 ## Public Page
 
-https://transia-rnd.github.io/xrpl-hex-visualizer/
+https://transia-rnd.github.io/xrpl-time-visualizer/
 
 ## Features
 
-- Convert hexadecimal strings to different formats.
-- Supports conversion to XFL, UInt8, UInt32, UInt64, UInt224, Hash256, Public Key, VarString, Currency, and XRP Address.
+- Supports conversion to Date, Timestamp, and RippleTime Address.
 - User-friendly interface with clear instructions.
 
 ## How to Use
 
 1. Open the `index.html` file in a web browser.
-2. Enter a hexadecimal string into the input field.
-3. Click the "Convert" button to perform the conversion.
+2. Enter a timestamp, date or ripple time into the input field.
+3. Click the "Convert From" or "Convert To" button to perform the conversion.
 4. View the conversion results displayed under the "Conversion Results" section.
-
-## Conversion Types
-
-- **XFL Decimal**: Converts a hexadecimal string to its decimal representation in the XFL format.
-- **UInt8**: Converts a 2-character hex string to an 8-bit unsigned integer.
-- **UInt16**: Converts an 4-character hex string to a 16-bit unsigned integer.
-- **UInt32**: Converts an 8-character hex string to a 32-bit unsigned integer.
-- **UInt64**: Converts a 16-character hex string to a 64-bit unsigned integer.
-- **UInt224**: Converts a 56-character hex string to a 224-bit unsigned integer.
-- **Hash256**: Validates and displays a 64-character hex string as a Hash256.
-- **Public Key**: Validates and displays a 66-character hex string as a Public Key.
-- **String**: Converts a hex string to a variable-length string.
-- **Currency**: Validates and displays a 40-character hex string as a Currency.
-- **XRP Address**: Validates and displays a 40-character hex string as an XRP Address.
 
 ## Technical Details
 
