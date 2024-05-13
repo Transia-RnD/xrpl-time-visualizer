@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/xrpl-time-visualizer/static/css/main.d504ff0a.css",
-    "main.js": "/xrpl-time-visualizer/static/js/main.4541e0a7.js",
+    "main.js": "/xrpl-time-visualizer/static/js/main.c630b362.js",
     "static/js/496.f932e76f.chunk.js": "/xrpl-time-visualizer/static/js/496.f932e76f.chunk.js",
     "index.html": "/xrpl-time-visualizer/index.html",
     "main.d504ff0a.css.map": "/xrpl-time-visualizer/static/css/main.d504ff0a.css.map",
-    "main.4541e0a7.js.map": "/xrpl-time-visualizer/static/js/main.4541e0a7.js.map",
+    "main.c630b362.js.map": "/xrpl-time-visualizer/static/js/main.c630b362.js.map",
     "496.f932e76f.chunk.js.map": "/xrpl-time-visualizer/static/js/496.f932e76f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d504ff0a.css",
-    "static/js/main.4541e0a7.js"
+    "static/js/main.c630b362.js"
   ]
 }
