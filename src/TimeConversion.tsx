@@ -20,7 +20,7 @@ const TimeConversion: React.FC = () => {
       const dt = rippleTimeToUnixTime(Number(dtInput));
       if (dt.toString().length >= 16) {
         // @ts-expect-error -- ignore
-        setConversionResults({});
+        setConversionResults(results);
         return
       }
       results.xrplTime = Number(dtInput);
@@ -53,6 +53,10 @@ const TimeConversion: React.FC = () => {
       try {
         const date = new Date(dt);
         const xrplTime = unixTimeToRippleTime(dt);
+        if (xrplTime < 0) {
+          // @ts-expect-error -- ignore
+          setConversionResults(results);
+        }
         results.xrplTime = xrplTime;
         results.timestamp = dt;
         results.date = date;
