@@ -56,6 +56,7 @@ const TimeConversion: React.FC = () => {
         if (xrplTime < 0) {
           // @ts-expect-error -- ignore
           setConversionResults(results);
+          return
         }
         results.xrplTime = xrplTime;
         results.timestamp = dt;
